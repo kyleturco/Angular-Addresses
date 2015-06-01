@@ -2,6 +2,12 @@ module.exports = function(grunt) {
 
   require('load-grunt-tasks')(grunt);
 
+  function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
+  }
+
+  var randomPort = getRandomInt(3000,65536);
+
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     autoprefixer: {
