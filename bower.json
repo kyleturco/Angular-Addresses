@@ -1,7 +1,7 @@
 {
   "name": "Angular-Addresses",
   "version": "1.0.0",
-  "homepage": "https://github.com/NSS-Cohort-9/Angular-Addresses",
+  "homepage": "(https://github.com/kyleturco/Angular-Addresses",
   "authors": [
     "Scott Humphries <scott@sscotth.io>"
   ],
@@ -15,6 +15,9 @@
     "tests"
   ],
   "dependencies": {
+    "angular": "~1.4.0"
+  },
+  "devDependencies": {
     "angular": "~1.4.0"
   }
 }
